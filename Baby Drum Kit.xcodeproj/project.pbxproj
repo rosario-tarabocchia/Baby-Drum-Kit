@@ -14,6 +14,14 @@
 		73C6ED361BB627C400E7FFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED341BB627C400E7FFEF /* LaunchScreen.storyboard */; };
 		73C6ED411BB627C400E7FFEF /* Baby_Drum_KitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6ED401BB627C400E7FFEF /* Baby_Drum_KitTests.swift */; };
 		73C6ED4C1BB627C400E7FFEF /* Baby_Drum_KitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6ED4B1BB627C400E7FFEF /* Baby_Drum_KitUITests.swift */; };
+		73C6ED611BB63B8200E7FFEF /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED591BB63B8200E7FFEF /* 1.wav */; settings = {ASSET_TAGS = (); }; };
+		73C6ED621BB63B8200E7FFEF /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5A1BB63B8200E7FFEF /* 2.wav */; settings = {ASSET_TAGS = (); }; };
+		73C6ED631BB63B8200E7FFEF /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5B1BB63B8200E7FFEF /* 3.wav */; settings = {ASSET_TAGS = (); }; };
+		73C6ED641BB63B8200E7FFEF /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5C1BB63B8200E7FFEF /* 4.wav */; settings = {ASSET_TAGS = (); }; };
+		73C6ED651BB63B8200E7FFEF /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5D1BB63B8200E7FFEF /* 5.wav */; settings = {ASSET_TAGS = (); }; };
+		73C6ED661BB63B8200E7FFEF /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5E1BB63B8200E7FFEF /* 6.wav */; settings = {ASSET_TAGS = (); }; };
+		73C6ED671BB63B8200E7FFEF /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5F1BB63B8200E7FFEF /* 7.wav */; settings = {ASSET_TAGS = (); }; };
+		73C6ED681BB63B8200E7FFEF /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED601BB63B8200E7FFEF /* 8.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		73C6ED471BB627C400E7FFEF /* Baby Drum KitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baby Drum KitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C6ED4B1BB627C400E7FFEF /* Baby_Drum_KitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_Drum_KitUITests.swift; sourceTree = "<group>"; };
 		73C6ED4D1BB627C400E7FFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C6ED591BB63B8200E7FFEF /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		73C6ED5A1BB63B8200E7FFEF /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		73C6ED5B1BB63B8200E7FFEF /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		73C6ED5C1BB63B8200E7FFEF /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		73C6ED5D1BB63B8200E7FFEF /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5.wav; sourceTree = "<group>"; };
+		73C6ED5E1BB63B8200E7FFEF /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6.wav; sourceTree = "<group>"; };
+		73C6ED5F1BB63B8200E7FFEF /* 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 7.wav; sourceTree = "<group>"; };
+		73C6ED601BB63B8200E7FFEF /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +118,14 @@
 				73C6ED2F1BB627C400E7FFEF /* Main.storyboard */,
 				73C6ED321BB627C400E7FFEF /* Assets.xcassets */,
 				73C6ED341BB627C400E7FFEF /* LaunchScreen.storyboard */,
+				73C6ED591BB63B8200E7FFEF /* 1.wav */,
+				73C6ED5A1BB63B8200E7FFEF /* 2.wav */,
+				73C6ED5B1BB63B8200E7FFEF /* 3.wav */,
+				73C6ED5C1BB63B8200E7FFEF /* 4.wav */,
+				73C6ED5D1BB63B8200E7FFEF /* 5.wav */,
+				73C6ED5E1BB63B8200E7FFEF /* 6.wav */,
+				73C6ED5F1BB63B8200E7FFEF /* 7.wav */,
+				73C6ED601BB63B8200E7FFEF /* 8.wav */,
 				73C6ED371BB627C400E7FFEF /* Info.plist */,
 			);
 			path = "Baby Drum Kit";
@@ -228,8 +252,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C6ED681BB63B8200E7FFEF /* 8.wav in Resources */,
+				73C6ED631BB63B8200E7FFEF /* 3.wav in Resources */,
 				73C6ED361BB627C400E7FFEF /* LaunchScreen.storyboard in Resources */,
 				73C6ED331BB627C400E7FFEF /* Assets.xcassets in Resources */,
+				73C6ED641BB63B8200E7FFEF /* 4.wav in Resources */,
+				73C6ED611BB63B8200E7FFEF /* 1.wav in Resources */,
+				73C6ED621BB63B8200E7FFEF /* 2.wav in Resources */,
+				73C6ED661BB63B8200E7FFEF /* 6.wav in Resources */,
+				73C6ED651BB63B8200E7FFEF /* 5.wav in Resources */,
+				73C6ED671BB63B8200E7FFEF /* 7.wav in Resources */,
 				73C6ED311BB627C400E7FFEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
