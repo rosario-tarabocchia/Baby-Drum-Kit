@@ -14,14 +14,14 @@
 		73C6ED361BB627C400E7FFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED341BB627C400E7FFEF /* LaunchScreen.storyboard */; };
 		73C6ED411BB627C400E7FFEF /* Baby_Drum_KitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6ED401BB627C400E7FFEF /* Baby_Drum_KitTests.swift */; };
 		73C6ED4C1BB627C400E7FFEF /* Baby_Drum_KitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6ED4B1BB627C400E7FFEF /* Baby_Drum_KitUITests.swift */; };
-		73C6ED611BB63B8200E7FFEF /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED591BB63B8200E7FFEF /* 1.wav */; settings = {ASSET_TAGS = (); }; };
-		73C6ED621BB63B8200E7FFEF /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5A1BB63B8200E7FFEF /* 2.wav */; settings = {ASSET_TAGS = (); }; };
-		73C6ED631BB63B8200E7FFEF /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5B1BB63B8200E7FFEF /* 3.wav */; settings = {ASSET_TAGS = (); }; };
-		73C6ED641BB63B8200E7FFEF /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5C1BB63B8200E7FFEF /* 4.wav */; settings = {ASSET_TAGS = (); }; };
-		73C6ED651BB63B8200E7FFEF /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5D1BB63B8200E7FFEF /* 5.wav */; settings = {ASSET_TAGS = (); }; };
-		73C6ED661BB63B8200E7FFEF /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5E1BB63B8200E7FFEF /* 6.wav */; settings = {ASSET_TAGS = (); }; };
-		73C6ED671BB63B8200E7FFEF /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5F1BB63B8200E7FFEF /* 7.wav */; settings = {ASSET_TAGS = (); }; };
-		73C6ED681BB63B8200E7FFEF /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED601BB63B8200E7FFEF /* 8.wav */; settings = {ASSET_TAGS = (); }; };
+		73C6ED611BB63B8200E7FFEF /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED591BB63B8200E7FFEF /* 1.wav */; };
+		73C6ED621BB63B8200E7FFEF /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5A1BB63B8200E7FFEF /* 2.wav */; };
+		73C6ED631BB63B8200E7FFEF /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5B1BB63B8200E7FFEF /* 3.wav */; };
+		73C6ED641BB63B8200E7FFEF /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5C1BB63B8200E7FFEF /* 4.wav */; };
+		73C6ED651BB63B8200E7FFEF /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5D1BB63B8200E7FFEF /* 5.wav */; };
+		73C6ED661BB63B8200E7FFEF /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5E1BB63B8200E7FFEF /* 6.wav */; };
+		73C6ED671BB63B8200E7FFEF /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED5F1BB63B8200E7FFEF /* 7.wav */; };
+		73C6ED681BB63B8200E7FFEF /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73C6ED601BB63B8200E7FFEF /* 8.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,6 +216,7 @@
 				TargetAttributes = {
 					73C6ED271BB627C400E7FFEF = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = FEY5QB95HW;
 					};
 					73C6ED3B1BB627C400E7FFEF = {
 						CreatedOnToolsVersion = 7.0;
@@ -428,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Baby Drum Kit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RLDT.Baby-Drum-Kit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,7 +442,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Baby Drum Kit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RLDT.Baby-Drum-Kit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +518,7 @@
 				73C6ED521BB627C400E7FFEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73C6ED531BB627C400E7FFEF /* Build configuration list for PBXNativeTarget "Baby Drum KitTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				73C6ED551BB627C400E7FFEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73C6ED561BB627C400E7FFEF /* Build configuration list for PBXNativeTarget "Baby Drum KitUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +536,7 @@
 				73C6ED581BB627C400E7FFEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
