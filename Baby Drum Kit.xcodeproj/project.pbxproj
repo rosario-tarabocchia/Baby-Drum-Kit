@@ -433,7 +433,7 @@
 				INFOPLIST_FILE = "Baby Drum Kit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RLDT.Baby-Drum-Kit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RLDT.Baby-Drum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -446,7 +446,7 @@
 				INFOPLIST_FILE = "Baby Drum Kit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RLDT.Baby-Drum-Kit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RLDT.Baby-Drum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

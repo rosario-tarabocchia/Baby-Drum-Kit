@@ -32,6 +32,8 @@ class ViewController: UIViewController {
     var sound6: SystemSoundID = 0
     var sound7: SystemSoundID = 0
     var sound8: SystemSoundID = 0
+    
+    @IBOutlet weak var screenImageView: UIImageView!
 
     
     override func viewDidLoad() {
@@ -46,6 +48,9 @@ class ViewController: UIViewController {
         AudioServicesCreateSystemSoundID(sound6URL!, &sound6)
         AudioServicesCreateSystemSoundID(sound7URL!, &sound7)
         AudioServicesCreateSystemSoundID(sound8URL!, &sound8)
+        
+        loadImageScreen()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -98,25 +103,38 @@ class ViewController: UIViewController {
         AudioServicesPlaySystemSound(sound8)
     }
 
+    
+    func loadImageScreen () {
+        
+        
+        if view.frame.size.height < 500 {
+            
+            screenImageView.image = UIImage(named:"4sbabydrum1")
+            
+        }
+        
+        else if view.frame.size.height < 600 {
+            
+            screenImageView.image = UIImage(named:"5sbabydrum1")!
+            
+        }
+        
+        else if view.frame.size.height < 700 {
+            
+            screenImageView.image = UIImage(named:"6sbabydrum1")!
+            
+        }
+        
+        else {
+            
+            screenImageView.image = UIImage(named:"6plusbabydrum1")!
+            
+        }
+        
+       
+        
+    }
+    
    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-}
+    }
 
